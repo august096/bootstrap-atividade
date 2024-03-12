@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./lib/bootstrap.min.css">
+</head>
+<body>
+
+    <div class="container">
+        <div id="carousel-exemplo" class="carousel carousel-fade slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div data-bs-interval="2000" class="carousel-item active">
+                    <img class="d-block w-100" src="https://cdn.pixabay.com/photo/2023/11/14/15/38/butterfly-8387989_1280.jpg">
+                    <div class="carousel-caption">
+                        <h2>Foto de um borboleta.</h2>
+                    </div>
+                </div>
+                <div data-bs-interval="2000" class="carousel-item">
+                    <img class="d-block w-100" src="https://cdn.pixabay.com/photo/2024/02/25/21/14/ruby-throated-hummingbird-8596660_1280.jpg">
+                    <div class="carousel-caption">
+                        <h2>Foto de um passaro.</h2>
+                    </div>
+                </div>
+                <div data-bs-interval="2000" class="carousel-item">
+                    <img class="d-block w-100" src="https://cdn.pixabay.com/photo/2024/01/12/03/59/lioness-8503063_1280.jpg">
+                    <div class="carousel-caption">
+                        <h2>Foto de um leao.</h2>
+                    </div>
+                </div>
+            </div>
+            <button data-bs-target="#carousel-exemplo" data-bs-slide="prev" class="carousel-control-prev" type="button">
+                <span class="carousel-control-prev-icon"></span>
+            </button>
+            <button data-bs-target="#carousel-exemplo" data-bs-slide="next" class="carousel-control-next" type="button">
+                <span class="carousel-control-next-icon"></span>
+            </button>
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carousel-exemplo" class="active"  data-bs-slide-to="0"></button>
+                <button type="button" data-bs-target="#carousel-exemplo" data-bs-slide-to="1"></button>
+                <button type="button" data-bs-target="#carousel-exemplo" data-bs-slide-to="2"></button>
+            </div>
+        </div>
+    </div>
+
+    <div class="container text-center p-4">
+        <div class="row">
+            <div class="col-lg-4 col-md-6 col-sm-12">
+                <div class="card">
+                    <header class="card-header">
+                        Borboleta
+                    </header>
+                    <img src="https://cdn.pixabay.com/photo/2023/11/14/15/38/butterfly-8387989_1280.jpg">
+                    <div class="card-body">
+                        <h4>Borboletas</h4>
+                        <p class="card-text">
+                            As borboletas são insetos coloridos, geralmente com asas delicadas e padrões intricados. Passam por uma metamorfose completa, começando como lagartas antes de se transformarem em crisálidas e, finalmente, emergirem como borboletas. Elas desempenham um papel crucial na polinização de plantas e são símbolos de transformação e beleza na natureza.
+                        </p>
+                        <a class="btn btn-primary" href="https://revistapesquisa.fapesp.br/a-origem-das-borboletas/">Leia mais</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-12">
+                <div class="card">
+                    <header class="card-header">
+                        Passaro
+                    </header>
+                    <img src="https://cdn.pixabay.com/photo/2024/02/25/21/14/ruby-throated-hummingbird-8596660_1280.jpg">
+                    <div class="card-body">
+                        <h4 class="card-title">
+                            Passaro
+                        </h4>
+                        <p class="card-text">
+                            
+                            Os pássaros são animais vertebrados, em sua maioria dotados de penas, bico e asas. São adaptados para o voo e são encontrados em diversos habitats ao redor do mundo. Desempenham papéis importantes na dispersão de sementes, controle de pragas e têm uma ampla diversidade de cantos e cores.
+                        </p>
+                        <a class="btn btn-primary" href="https://brasilescola.uol.com.br/biologia/diferenca-entre-ave-passaro.htm">Leia mais</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-12">
+                <div class="card">
+                    <header class="card-header">
+                        Leoes
+                    </header>
+                    <img src="https://cdn.pixabay.com/photo/2024/01/12/03/59/lioness-8503063_1280.jpg">
+                    <div class="card-body">
+                        <h4 class="card-title">
+                            Leoes
+                        </h4>
+                        <p class="card-text">
+                            Os leões são grandes felinos sociais encontrados principalmente na África e em algumas partes da Ásia. Caracterizam-se por suas juba (no caso dos machos), são predadores carnívoros e vivem em grupos chamados de "bando" ou "coalizão". Os leões são conhecidos por sua força, agilidade e por desempenharem papéis específicos em suas sociedades, como a proteção do grupo e a caça cooperativa.
+                        </p>
+                        <a class="btn btn-primary" href="https://brasilescola.uol.com.br/animais/leao.htm#:~:text=Segundo%20maior%20felino%20do%20mundo,com%20mais%20de%20250%20kg.">Leia mais</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="./lib/bootstrap.bundle.min.js"></script>
+</body>
+</html>
